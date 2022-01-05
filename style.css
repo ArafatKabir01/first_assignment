@@ -1,0 +1,54 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+.first_section{
+    display: flex;
+    background-image: url(image/shapes/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.Orange{
+    color: orange;
+}
+.name h1{
+    font-size: 80px;
+    line-height:120%;
+    margin: 0%;
+
+}
+#first_pra {
+    padding-left: 0 %;
+    padding-top: 5%;
+    margin-bottom:43px;
+}
+.half_width{
+    width: 50%;
+}
+.my_image img{
+    width: 666px;
+    height: 750px;
+    
+}
+.name_bio{
+    padding: 200px 215px;
+}
+.name{
+
+    border-left: 5px solid black;
+    height: 196px;
+    padding-left: 5%;
+    border-image: linear-gradient(rgba(35, 21, 228, 0.719), rgba(255, 0, 242, 0.829));
+    border-image-slice: 3;
+}
+#button{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 42px;
+}
+p{
+    font-size: 27px;
+    color: rgb(80, 82, 78);
+}

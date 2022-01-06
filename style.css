@@ -5,42 +5,46 @@ body{
 .first_section{
     display: flex;
     background-image: url(image/shapes/top-banner.png);
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;   
 }
+
 .Orange{
     color: orange;
 }
+
 .name h1{
     font-size: 80px;
     line-height:120%;
     margin: 0%;
-
 }
+
 #first_pra {
     padding-left: 0 %;
     padding-top: 5%;
     margin-bottom:43px;
 }
+
 .half_width{
     width: 50%;
 }
+
 .my_image img{
     width: 666px;
     height: 750px;
-    
 }
+
 .name_bio{
     padding: 200px 215px;
 }
-.name{
 
+.name{
     border-left: 5px solid black;
     height: 196px;
     padding-left: 5%;
     border-image: linear-gradient(rgba(35, 21, 228, 0.719), rgba(255, 0, 242, 0.829));
     border-image-slice: 3;
 }
+
 #button{
     text-decoration: none;
     background-color: tomato;
@@ -48,64 +52,74 @@ body{
     border-radius: 5px;
     padding: 12px 42px;
 }
+
 p{
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(80, 82, 78);
 }
+
 .my_mission{
     wiidth:100%;
     margin-bottom: 10%;
-
 }
+
 #mission_heading{
     text-align: center;
     font-size: 60px;
     color: rgba(128, 0, 128, 0.781);
     margin-bottom: 100px;
 }
+
 .mission_3all{
     width: 90%;
     display: flex;
 }
+
 .width_30{
     width: 30%;
     border-radius: 30px;
     width: 500px;
-    height: 450px;
+    height: 531px;
     margin-left: 11%;
     padding: 38px;
 }
+
 .illust_img{
     width: 210px;
-    height: 224px;
-    
-    
+    height: 224px;   
 }
+
 .mission{
     background-color: rgba(255, 239, 213, 0.89);
 }
+
 .vission{
     background-color: rgba(64, 224, 208, 0.877);
 }
+
 .goals{
     background-color: rgba(113, 131, 212, 0.883);
 }
+
 .width_30 p{
     font-size: 20px;
 }
+
 .width_30 h1{
     font-size: 40px;
     margin: 0;
 }
+
 .develop{
     display: flex;
     margin-bottom: 10%
 }
+
 .develop_img{
-    
     padding: ;
     margin: 15% 20%;
 }
+
 .develop_text{
     margin: 2% 13%;
 }
@@ -113,21 +127,28 @@ p{
     font-size: 55px;
     margin-bottom: 0px;
 }
+
 .develop_text p{
     line-height: 50px;
     font-size: 20px;
     margin-bottom: 8%;
 }
+
 .community{
     display: flex;
     margin-bottom: 10%;
-
 }
 .community_img img{
     padding: 70px;  
 }
-.contact{
-    
+
+.contact_form{
+    background-image: url(image/shapes/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.contact{ 
     width: 636px;
     height: 468px;
     background-color: rgba(255, 255, 255, 0.89);
@@ -137,13 +158,13 @@ p{
     border-radius: 20px;
     margin-left: 35%;
     margin-bottom: 10%;
-   
 }
+
 form{
     margin: 35px;
     align: center;
-   
 }
+
 .input_fild{
    width: 400px;
    height: 40px;
@@ -153,10 +174,17 @@ form{
    border: 1px solid rgb(95, 27, 27);
    border-radius: 5px;
    outline: none;
-   
 }
+
 .text_fild{
     height: 150px;
     margin-bottom: 3%;
     padding-top: 10px;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }

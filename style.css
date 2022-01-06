@@ -54,7 +54,7 @@ p{
 }
 .my_mission{
     wiidth:100%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 
 }
 #mission_heading{
@@ -96,4 +96,67 @@ p{
 .width_30 h1{
     font-size: 40px;
     margin: 0;
+}
+.develop{
+    display: flex;
+    margin-bottom: 10%
+}
+.develop_img{
+    
+    padding: ;
+    margin: 15% 20%;
+}
+.develop_text{
+    margin: 2% 13%;
+}
+.develop_text h1{
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+.develop_text p{
+    line-height: 50px;
+    font-size: 20px;
+    margin-bottom: 8%;
+}
+.community{
+    display: flex;
+    margin-bottom: 10%;
+
+}
+.community_img img{
+    padding: 70px;  
+}
+.contact{
+    
+    width: 636px;
+    height: 468px;
+    background-color: rgba(255, 255, 255, 0.89);
+    box-shadow: 10px 20px 25px;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    margin-left: 35%;
+    margin-bottom: 10%;
+   
+}
+form{
+    margin: 35px;
+    align: center;
+   
+}
+.input_fild{
+   width: 400px;
+   height: 40px;
+   margin-top: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+   border: 1px solid rgb(95, 27, 27);
+   border-radius: 5px;
+   outline: none;
+   
+}
+.text_fild{
+    height: 150px;
+    margin-bottom: 3%;
+    padding-top: 10px;
 }
